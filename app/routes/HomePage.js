@@ -13,26 +13,45 @@ class HomePage extends Component {
     return (
       <div>
 
-        <div style={{ color: "#6b6161" }}>
-          <div
-            style={{
-              height: "100px",
-              backgroundColor: "#fcecd7",
-              borderRadius: "4px",
-              textAlign: "center",
-              paddingTop: "40px",
-              paddingBottom: "40px"
-            }}
-          >
-            <span
+        <div>
+          <div style={{ width: "800px", height: "195px", margin: "0 auto" }}>
+            <div
               style={{
-                lineHeight: "20px",
-                backgroundColor: "#b8e986",
-                color: "#4a90e2"
+                position: "relative",
+                top: "50%",
+                transform: "translateY(-50%)"
               }}
             >
-              Hello Colorful World 🖍🖍
-            </span>
+              <a
+                style={{
+                  color: "#000000",
+                  fontFamily: "Montserrat",
+                  fontSize: "25px",
+                  textDecoration: "none"
+                }}
+                href="#"
+              >
+                <span>Bobae Park</span>
+              </a>
+              <ul style={{ marginTop: "25px" }}>
+                <li style={{ float: "left", marginRight: "25px" }}>
+                  <a
+                    href="/about"
+                    style={{ color: "#000000", textDecoration: "none" }}
+                  >
+                    <span>ABOUTt</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/work"
+                    style={{ color: "#000000", textDecoration: "none" }}
+                  >
+                    <span>PROJECTS</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 

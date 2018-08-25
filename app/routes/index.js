@@ -1,6 +1,7 @@
 import React from "react";
 import HomePage from "./HomePage";
 import Page6 from "./Page6";
+import Page19 from "./Page19";
 
 class App extends React.Component {
   render() {
@@ -26,6 +27,11 @@ export default {
       path: "/work",
       name: "/work",
       component: Page6
+    },
+    {
+      path: "/about",
+      name: "/about",
+      component: Page19
     },
     {
       path: "*",

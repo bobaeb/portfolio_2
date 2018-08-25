@@ -7,36 +7,111 @@
         {
           "type": "div",
           "variant": "default",
-          "props": {
-            "style": {
-              "color": "#6b6161"
-            }
-          },
+          "props": {},
           "children": [
             {
               "type": "div",
               "variant": "default",
               "props": {
                 "style": {
-                  "height": "100px",
-                  "backgroundColor": "#fcecd7",
-                  "borderRadius": "4px",
-                  "textAlign": "center",
-                  "paddingTop": "40px",
-                  "paddingBottom": "40px"
+                  "width": "800px",
+                  "height": "195px",
+                  "margin": "0 auto"
                 }
               },
               "children": [
                 {
-                  "type": "span",
-                  "text": "Hello Colorful World 🖍🖍",
+                  "type": "div",
+                  "variant": "default",
                   "props": {
                     "style": {
-                      "lineHeight": "20px",
-                      "backgroundColor": "#b8e986",
-                      "color": "#4a90e2"
+                      "position": "relative",
+                      "top": "50%",
+                      "transform": "translateY(-50%)"
                     }
-                  }
+                  },
+                  "children": [
+                    {
+                      "type": "a",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "color": "#000000",
+                          "fontFamily": "Montserrat",
+                          "fontSize": "25px",
+                          "textDecoration": "none"
+                        },
+                        "href": "#"
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "Bobae Park"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ul",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "marginTop": "25px"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "li",
+                          "children": [
+                            {
+                              "type": "a",
+                              "variant": "default",
+                              "props": {
+                                "href": "/about",
+                                "style": {
+                                  "color": "#000000",
+                                  "textDecoration": "none"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "ABOUTt"
+                                }
+                              ]
+                            }
+                          ],
+                          "props": {
+                            "style": {
+                              "float": "left",
+                              "marginRight": "25px"
+                            }
+                          }
+                        },
+                        {
+                          "type": "li",
+                          "children": [
+                            {
+                              "type": "a",
+                              "variant": "default",
+                              "props": {
+                                "href": "/work",
+                                "style": {
+                                  "color": "#000000",
+                                  "textDecoration": "none"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "PROJECTS"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -63,6 +138,45 @@
                 {
                   "type": "span",
                   "text": "work page"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Page19",
+      "pagePath": "/about",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "style": {
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "padding": "1em"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "children": [
+                {
+                  "type": "h3",
+                  "props": {
+                    "style": {
+                      "padding": "1em",
+                      "textAlign": "center"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Click on me and start creating a new cool component."
+                    }
+                  ]
                 }
               ]
             }
